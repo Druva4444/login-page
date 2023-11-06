@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #8ecae6;
+    background: linear-gradient(to right, #fff,#8ecae6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: montserrat,cursive;
+}
+p,h1{
+    padding: 10px;
+}
+.maincontainer{
+    background-color: #219ebc;
+    background: linear-gradient(to left,#fff,#219ebc);
+    width: 700px;
+    height: 500px;
+    box-shadow: 0px 5px 15px rgb(0,0 ,0,0.4);
+   border-radius: 30px;  
+
+position: relative;
+
+}
+.maincontainer a{
+    font-size: 13px;
+    color: rgb(0,0,0,0.8);
+    margin: 10px 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.maincontainer span{
+    font-size: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    width: 350px;
+    height: 100%;
+    padding-bottom: 110px;
+    
+   
+}
+.but1{
+    background-color: #219ebc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.signup input{
+    padding: 5px;
+   
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 350px;
+    left: 0%;
+    height: 100%;
+    padding-bottom: 70px;
+
+    
+}
+.but2{
+    background-color: #219ebc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.signin input{
+    padding: 5px;
+    outline: none;
+    margin: 5px 0px 5px 0px;
+}
+.change{
+    position: absolute;
+    height: 100%;
+    width: 350px;
+    background-color: #3a86ff;
+    border-radius: 30px 100px 100px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+.change p{
+    font-size: 25px;
+    font-weight: bolder;;
+    color: white;
+}
+.but3{
+    background-color: #023e8a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.but4{
+    position: absolute;
+    background-color: #023e8a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 100px;
+    display: none;
+    
+    
+}
+.social a{
+border: 1px solid grey;
+padding: 5px;
+margin: 10px 0px;
+}
+.social {
+    margin: 10px 0px;
+}
